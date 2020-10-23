@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Malaria-Detector</string>
+    <string name="app_act_name">Malaria Detector</string>
+    <string name="placeholder">placeholder</string>
+    <string name="camera">Capture Image</string>
+    <string name="recognize">Recognize</string>
+    <string name="open_button">Open</string>
+
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="welcome_content">Malaria\nDetector</string>
+    <string name="logo">Logo</string>
+</resources>

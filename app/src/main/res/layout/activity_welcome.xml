@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".Welcome">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="243dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:fadingEdge="horizontal"
+        android:contentDescription="@string/logo"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <!--<TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:text="@string/welcome_content"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+        -->
+
+
+</FrameLayout>
